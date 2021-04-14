@@ -1,0 +1,28 @@
+/h == this help command
+/alias == show as alias command
+
+Modular NSFW
+ /gel `<...params: String>` == Gelbooru
+ /kona `<...params: String>` == Konachan
+ /r34 `<...params: String>` == Rule34
+ /rb `<...params: String>` == Realbooru
+ /loli `<...params: String>` == Lolibooru
+ /yande `<...params: String>` == Yandere (orenoimouto)
+ /tw `<...params: String>` == NSFW Twitter platform
+
+NSFW
+ /hentai /neko /cosplay /purr /sex /jav /ugly /ntr
+
+Crypto
+ /crypto `<...params: String>` == Cryptochecker
+
+Competitive Dota 2
+ /hero `<...params: String>` == Hero status
+ /talent `<...params: String>` == Talent tree
+ /herochanges `<...params: String>` == Osfrog nerf
+ /upcoming == Upcoming major minor schedule
+ /ongoing == Ongoing major minor schedule
+ /ended == Ended major minor schedule
+
+`Args ( <> = required, [] = optional )`
+Try our Discord version: https://discord.sinkaroid.io/

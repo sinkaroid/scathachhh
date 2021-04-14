@@ -1,0 +1,38 @@
+{
+  "name": "scathach",
+  "version": "0.2.1",
+  "description": "scathach bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinkaroid/eris-boilerplate.git"
+  },
+  "author": "sinkaroid",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/sinkaroid/eris-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sinkaroid/eris-boilerplate#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cabul": "0.0.7",
+    "chaldea": "0.0.2",
+    "ereshkigal": "0.0.2",
+    "eris": "^0.15.0",
+    "fs": "0.0.2",
+    "graphql": "^15.5.0",
+    "latex": "0.0.1",
+    "ms": "^2.1.2",
+    "mongoose": "^5.11.9",
+    "node-fetch": "^2.6.1",
+    "node-latex": "^3.0.0",
+    "path": "^0.12.7",
+    "scathach-api": "0.0.7",
+    "sessyoin": "0.0.1",
+    "whois-api": "^1.0.2"
+  }
+}

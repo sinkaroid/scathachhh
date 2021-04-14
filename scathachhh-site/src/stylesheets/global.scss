@@ -1,0 +1,107 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parallax {
+    background-image: url("../assets/msh.jpg");
+
+    height: 100vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background: #212121;
+}
+
+.jumbotron {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    background: rgba(0, 0, 0, 0.3)
+}
+
+.list-group-item {
+    color: #ffffff;
+    background: transparent;
+}
+
+code {
+    background-color: #23272A;
+    color: #ffffff;
+    font-size: 0.875em;
+    font-weight: normal;
+    padding: 0.25em 0.5em 0.25em;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+.img1 {
+    filter: drop-shadow(0 4px 5px rgba(0, 0, 0, 0.65));
+    animation: pulsePic 2s infinite;
+    -webkit-animation: pulsePic 2s infinite;
+    border-radius: 50%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    text-align: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none
+
+}
+@-webkit-keyframes pulsePic {
+0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(23, 28, 31, 0.959)
+}
+70% {
+    -webkit-box-shadow: 0 0 0 20px transparent
+}
+100% {
+    -webkit-box-shadow: 0 0 0 0 transparent
+}
+}
+
+@keyframes pulsePic {
+0% {
+    -moz-box-shadow: 0 0 0 0 rgba(246, 246, 246, 0.972);
+    box-shadow: 0 0 0 0 rgba(246, 246, 246, 0.842)
+}
+70% {
+    -moz-box-shadow: 0 0 0 20px transparent;
+    box-shadow: 0 0 0 20px transparent
+}
+100% {
+    -moz-box-shadow: 0 0 0 0 transparent;
+    box-shadow: 0 0 0 0 transparent
+}
+}
+.img1:hover {
+
+ transform: rotate(1000deg) scale(1.0);
+ -webkit-transition: .8s ease-in-out;
+ transition: .8s ease-in-out;
+}
+#steal a{
+	padding:3px;
+	margin:1;
+	background:black;
+	text-decoration:none;
+	letter-spacing:1px;
+	-moz-border-radius: 10px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;
+}
+#steal a:hover{
+	background:crimson;
+	border-bottom:1px solid crimson;
+	border-top:1px solid crimson;
+}
